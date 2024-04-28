@@ -74,18 +74,19 @@
             label1.AutoSize = true;
             label1.Location = new Point(12, 96);
             label1.Name = "label1";
-            label1.Size = new Size(68, 15);
+            label1.Size = new Size(74, 15);
             label1.TabIndex = 4;
-            label1.Text = "USERNAME";
+            label1.Text = "USERNAMES";
+            label1.Click += label1_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Location = new Point(12, 162);
             label2.Name = "label2";
-            label2.Size = new Size(68, 15);
+            label2.Size = new Size(74, 15);
             label2.TabIndex = 5;
-            label2.Text = "PASSWORD";
+            label2.Text = "PASSWORDS";
             // 
             // textBox3
             // 
